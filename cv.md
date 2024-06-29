@@ -66,6 +66,7 @@ export const Contacts = () => {
 };
 
 ```
+
 **Work experience**
 ===================
 I have 10 mounth of work experience as a Junior Software Engineer in [NetCracker Technology](https://www.netcracker.com/) (08/2016 — 05/2017).
