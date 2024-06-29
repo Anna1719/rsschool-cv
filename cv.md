@@ -66,3 +66,19 @@ export const Contacts = () => {
 };
 
 ```
+**Work experience**
+*******************
+I have 10 mounth of work experience as a Junior Software Engineer in [NetCracker Technology](https://www.netcracker.com/) (08/2016 — 05/2017).
+Most of my work projects revolved around the development and support of a digital platform for businesses.
+Currently doing freelance.
+
+**Education**
+*******************
+* National Research University Higher School of Economics, Faculty of Informatics, Mathematics, and Computer Science, Bachelor’s degree in Mathematics, and Computer Science (2014—2019)
+
+* National Research Lobachevsky State University of Nizhni Novgorod, Faculty of Social Sciences, Master's degree in Psychophysiology (2021—2024)
+
+**English language level**
+*******************
+
+C1 (Advanced)
