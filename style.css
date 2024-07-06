@@ -110,13 +110,19 @@ body {
     font-size: 20px;
 }
 
-.skills-list{
+.skills-list,
+.languages-list{
     font-weight: 600;
     font-size: 17px;
 }
 
 .skills-list ::before{
     content: "\2714";
+    color: var(--link-before);
+}
+
+.languages-list ::before{
+    content: "\26AC";
     color: var(--link-before);
 }
 
@@ -133,6 +139,10 @@ a {
 
 .pre {
     display: flex;
+    justify-content: center;
+    font-size: 12px;
+    background-color: var(--color-light);
+    color: var(--color-dark);
 }
 
 .footer-container {
