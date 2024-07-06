@@ -4,6 +4,7 @@
     --color-light: #dfeef4;
     --accent: #ea9101;
     --link-before:#067474;
+    --name-color:#013136;
 }
 
 * {
@@ -88,7 +89,7 @@ body {
     width: 100%;
     background-color: var(--link-before);
     border-radius: 100px / 100px;
-    color: rgb(2, 33, 31);
+    color: var(--name-color);
 }
 
 .profile-photo {
@@ -109,9 +110,14 @@ body {
     font-size: 20px;
 }
 
-.skills-list {
+.skills-list{
     font-weight: 600;
     font-size: 17px;
+}
+
+.skills-list ::before{
+    content: "\2714";
+    color: var(--link-before);
 }
 
 a {
