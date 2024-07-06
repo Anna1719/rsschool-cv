@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="icon" href="./assets/img/favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#code-example">Code</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main-container">
+            <div class="profile" id="profile">
+                <img src="./assets/img/photo.jpg" alt="photo" class="profile-photo"/>
+                <div class="profile-name">
+                    <h1 class="name">Anna Barinova</h1>
+                    <p class="job-position">Junior Front-end Developer</p>
+                </div>
+            </div>
+            <div class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">Telegram: <a href="https://t.me/ana_malenia">@ana_malenia</a></li>
+                    <li class="contact-item">E-mail: <a href="mailto:annbarinova.116@gmail.com">annbarinova.116@gmail.com</a></li>
+                    <li class="contact-item">Discord: <a href="https://discordapp.com/users/879911097803616296">anna_zoe</a></li>
+                    <li class="contact-item">GitHub: <a href="https://github.com/Anna1719">Anna1719</a></li>
+                </ul>
+            </div>
+
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>My goal right now is to renew my knowledge in front-end development and potentially gain more understanding of the current requirements for a position of junior software developer. 
+                    Even though I have previous relevant work experience, I am certain that my skills could be improved, so I appreciate any feedback and constructive criticism.
+                </p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">  JavaScript</li>
+                    <li class="skills-item">  HTML5</li>
+                    <li class="skills-item">  CSS3</li>
+                    <li class="skills-item">  React</li>
+                    <li class="skills-item">  JQuery</li>
+                    <li class="skills-item">  Java, C++, Python</li>
+                    <li class="skills-item">  Git</li>
+                </ul>
+            </section>
+
+            <section class="section" id="code-example">
+                <h2 class="section-title">Code Example</h2>
+                <p>Given 2 strings, a and b, return a string of the form short+long+short, with the shorter string on the outside and the longer string on the inside. The strings will not be the same length, but they may be empty ( zero length ).</p>
+                <pre class="pre">
+                    <code> solution = (a, b) => (a.length < b.length) ? a+b+a : b+a+b </code>
+                </pre>
+            </section>
+
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="project-list">
+                    <li class="project-item">
+                        <a href="https://github.com/Anna1719/neoflex_project">Headphone Marketplace (React, Typescript)</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="experience">
+                <h2 class="section-title">Work experience</h2>
+                <div class="workplace">I have previous work experience as a Junior Software Engineer in <a href="https://www.netcracker.com/" class="workplace-link">NetCracker Technology</a>.
+                    Most of my work projects revolved around the development and support of a digital platform for businesses.
+                    Currently doing freelance.
+                </div>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="education-list">
+                    <li class="edu-item"> <a href="https://nnov.hse.ru/" class="uni-link">National Research University Higher School of Economics</a>, Faculty of Informatics, Mathematics, and Computer Science, Bachelor’s degree in Mathematics, and Computer Science (2014—2019)</li>
+                    <li class="edu-item"> <a href="http://www.unn.ru/" class="uni-link">National Research Lobachevsky State University of Nizhni Novgorod</a>, Faculty of Social Sciences, Master's degree in Psychophysiology (2021—2024)</li>
+                </ul>
+            </section>
+
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="languages-list">
+                    <li class="language-item">   Russian: Native</li>
+                    <li class="language-item">   English: C1 (Advanced)</li>
+                    <li class="language-item">   German: A1 (Beginner)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-github">©2024  <a href="https://github.com/Anna1719">Anna1719</a></div>
+            <a href="https://rs.school/courses/javascript-ru">
+                <img src="./assets/img/rs_school_icon.png" alt="logo">
+            </a>
+        </div>
+    </footer>    
+
+</body>
+</html>
